@@ -1,0 +1,22 @@
+# Build artifacts and binaries
+*.o
+*.obj
+build/
+bin/
+image-processor
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Test output directories and python bytecode
+__pycache__/
+*.pyc
+test-output/
+edited_photo/
+scratch/
